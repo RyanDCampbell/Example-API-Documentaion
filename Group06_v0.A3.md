@@ -5,19 +5,19 @@ We need this file for submission
 
 ## Desription of Endpoints
 
-### City Endpoint
+### By City
 
 
     https://manitoba.data/api/city
 
 
-### Population Endpoint
+### By Population
 
 
     https://manitoba.data/api/city/population
 
 
-### Income Enpoint
+### By Income
 
     https://manitoba.data/api/city/income
 
