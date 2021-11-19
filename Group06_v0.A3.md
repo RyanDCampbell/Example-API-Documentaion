@@ -4,6 +4,10 @@ manitoba.population holds data regarding the population of Manitoba. Use the man
 
 ## Desription of Endpoints
 
+Our endpoint has 3 parameters: city, age, and income. You can use any combination of these three parameters to specify the population number you want to receive. For example if you can search for the number of 25 year olds in Winnipeg by setting the city parameter to Winnipeg and the age parameter to 25. 
+
+For age and income you can add specify a range rather than a single number by using two numbers separated by a dash. For example, you can search for the number of Manitobans between the ages of 10 and 12 by setting the age parameter to "10-12."
+
 ### By City
 
 Allows users to get the population of a specific city
