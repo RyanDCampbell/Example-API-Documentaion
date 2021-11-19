@@ -31,7 +31,7 @@ Allows users to get the population of a specific city
 
 Allows users to get the population of Manitobans within a specific age range
 
-    https://manitoba.population/api/city/age
+    https://manitoba.population/api/age
     
     
     
@@ -54,7 +54,7 @@ Allows users to get the population of Manitobans within a specific age range
 
 Allows users to get the population of Manitobans within a range of income
 
-    https://manitoba.population/api/city/income
+    https://manitoba.population/api/income
     
     
     
