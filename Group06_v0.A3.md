@@ -5,14 +5,16 @@ This API would allow users to access information about the population of Manitob
 
 ## Description of Endpoints
 
-### By City
+Our endpoint has 3 parameters. 
 
-    https://manitoba.data/api/city
+### By City
+    Allows users to get the population of a specific city
+    https://manitoba.population/api/city
 
 ### By Age
-
-    https://manitoba.data/api/city/age
+    Allows users to get the population of Manitobans within a specific age range
+    https://manitoba.population/api/city/age
 
 ### By Income
-
-    https://manitoba.data/api/city/income
+    Allows users to get the population of Manitobans within a range of income
+    https://manitoba.population/api/city/income
