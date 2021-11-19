@@ -1,6 +1,6 @@
 ## API Description
 
-This API would allow users to access information about the population of Manitoba. It allows users to specify parameters such as city age and income.
+manitoba.population holds data regarding the population of Manitoba. Use the manitoba.population API to retrieve population by city, age, and income of Manitobans.
 
 ## Desription of Endpoints
 
