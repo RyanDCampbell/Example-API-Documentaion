@@ -12,7 +12,25 @@ For age and income you can add specify a range rather than a single number by us
 
 Allows users to get the population of a specific city
 
-    https://manitoba.population/api/city
+
+    https://manitoba.population.com/api/city
+
+
+
+####  City JSON
+
+
+
+    {
+        "message": "20000"
+        "status": "success"
+    }
+
+
+
+
+
+
 
 
 
@@ -35,10 +53,12 @@ Allows users to get the population of a specific city
 
 Allows users to get the population of Manitobans within a specific age range
 
-    https://manitoba.population/api/age
+
+    https://manitoba.population.com/api/age
     
     
     
+
 ####  Age JSON
 
 
@@ -58,7 +78,9 @@ Allows users to get the population of Manitobans within a specific age range
 
 Allows users to get the population of Manitobans within a range of income
 
-    https://manitoba.population/api/income
+
+    https://manitoba.population.com/api/income
+
     
     
     
@@ -78,10 +100,12 @@ Allows users to get the population of Manitobans within a range of income
 
 # Sample Request
 
-https://api.manitoba_population.com/json?city=winnipeg
 
-https://api.manitoba_population.com/json?age=6
+https://manitoba.population.com/api/json?city=winnipeg
 
-https://api.manitoba_population.com/json?income=28000
+https://manitoba.population.com/api/json?age=6
+
+https://manitoba.population.com/api/json?income=28000
+
 
 # Response
