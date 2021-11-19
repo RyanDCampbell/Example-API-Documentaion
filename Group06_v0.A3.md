@@ -11,6 +11,24 @@ We need this file for submission
     https://manitoba.data/api/city
 
 
+
+
+#### JSON
+
+
+
+    {
+        "message": cityname
+    }
+
+
+
+
+
+
+
+
+
 ### By Population
 
 
