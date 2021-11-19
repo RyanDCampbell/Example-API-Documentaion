@@ -13,12 +13,13 @@ We need this file for submission
 
 
 
-#### JSON
+####  City JSON
 
 
 
     {
-        "message": cityname
+        "message": "cityname"
+        "status": "success"
     }
 
 
@@ -35,7 +36,40 @@ We need this file for submission
     https://manitoba.data/api/city/population
 
 
+
+####  Population JSON
+
+
+
+    {
+        "message": '10000'
+        "status": "success"
+    }
+
+
+
+
+
+
+
 ### By Income
 
     https://manitoba.data/api/city/income
+
+
+####  City JSON
+
+
+
+    {
+        "message": '400000'
+        "status: "success
+    }
+
+
+
+
+
+
+
 
