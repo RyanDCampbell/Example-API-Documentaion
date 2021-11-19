@@ -11,10 +11,10 @@ We need this file for submission
     https://manitoba.data/api/city
 
 
-### By Population
+### By Age
 
 
-    https://manitoba.data/api/city/population
+    https://manitoba.data/api/city/age
 
 
 ### By Income
