@@ -57,7 +57,7 @@ We need this file for submission
     https://manitoba.data/api/city/income
 
 
-####  City JSON
+####  Income JSON
 
 
 
