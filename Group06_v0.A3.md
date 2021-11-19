@@ -34,14 +34,6 @@ Allows users to get the population of a specific city
 
 
 
-####  City JSON
-
-
-
-    {
-        "message": "cityname"
-        "status": "success"
-    }
 
 
 
