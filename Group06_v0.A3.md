@@ -64,7 +64,7 @@ Allows users to get the population of Manitobans within a range of income
 
     {
         "message": '400000'
-        "status: "success
+        "status: "success"
     }
 
 
