@@ -7,17 +7,12 @@ This API would allow users to access information about the population of Manitob
 
 ### By City
 
-
     https://manitoba.data/api/city
 
+### By Age
 
-### By Population
-
-
-    https://manitoba.data/api/city/population
-
+    https://manitoba.data/api/city/age
 
 ### By Income
 
     https://manitoba.data/api/city/income
-
