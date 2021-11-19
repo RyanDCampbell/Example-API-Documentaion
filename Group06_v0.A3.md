@@ -8,7 +8,7 @@ manitoba.population holds data regarding the population of Manitoba. Use the man
 
 Allows users to get the population of a specific city
 
-    https://manitoba.population/api/city
+    https://manitoba.population.com/api/city
 
 
 
@@ -31,7 +31,7 @@ Allows users to get the population of a specific city
 
 Allows users to get the population of Manitobans within a specific age range
 
-    https://manitoba.population/api/age
+    https://manitoba.population.com/api/age
     
     
     
@@ -54,7 +54,7 @@ Allows users to get the population of Manitobans within a specific age range
 
 Allows users to get the population of Manitobans within a range of income
 
-    https://manitoba.population/api/income
+    https://manitoba.population.com/api/income
     
     
     
@@ -74,10 +74,10 @@ Allows users to get the population of Manitobans within a range of income
 
 # Sample Request
 
-https://api.manitoba_population.com/json?city=winnipeg
+https://manitoba.population.com/api/json?city=winnipeg
 
-https://api.manitoba_population.com/json?age=6
+https://manitoba.population.com/api/json?age=6
 
-https://api.manitoba_population.com/json?income=28000
+https://manitoba.population.com/api/json?income=28000
 
 # Response
