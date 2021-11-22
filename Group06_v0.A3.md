@@ -12,92 +12,76 @@ For age and income you can add specify a range rather than a single number by us
 
 Allows users to get the population of a specific city
 
-
     https://manitoba.population.com/api/city
 
-
-
 ####  City JSON
-
-
 
     {
         "message": "20000"
         "status": "success"
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ### By Age
 
 Allows users to get the population of Manitobans within a specific age range
 
-
     https://manitoba.population.com/api/age
     
-    
-    
-
 ####  Age JSON
-
-
 
     {
         "message": '10000'
         "status": "success"
     }
 
-
-
-
-
-
-
 ### By Income
 
 Allows users to get the population of Manitobans within a range of income
 
-
     https://manitoba.population.com/api/income
 
-    
-    
-    
+
 ####  Income JSON
-
-
 
     {
         "message": '400000'
         "status: "success"
     }
 
+# Sample Requests and Responses
 
+- https://manitoba.population.com/api/json?city=winnipeg
 
+```
+{
+    "results": {
+        "population": 1,000,000,
+        "city": "winnipeg"
+    }
+    "status": "OK"
+}
+```
 
+- https://manitoba.population.com/api/json?age=6
 
+```
+{
+    "results": {
+        "population": 1,000,000,
+        "age": 6
+    }
+    "status": "OK"
+}
+```
 
-# Sample Request
+- https://manitoba.population.com/api/json?income=28000
 
-
-https://manitoba.population.com/api/json?city=winnipeg
-
-https://manitoba.population.com/api/json?age=6
-
-https://manitoba.population.com/api/json?income=28000
-
-
-# Response
+```
+{
+    "results": {
+        "population": 1,000,000,
+        "income": 28,000
+    }
+    "status": "OK"
+}
+```
