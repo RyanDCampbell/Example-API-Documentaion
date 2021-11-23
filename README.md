@@ -17,9 +17,10 @@ Allows users to get the population of a specific city
 ####  City JSON
 
     {
-        "message": "20000"
-        "status": "success"
+        "population": "49000"
+        "city": "Brandon"
     }
+    "status":"OK"
 
 ### By Age
 
@@ -30,9 +31,10 @@ Allows users to get the population of Manitobans within a specific age range
 ####  Age JSON
 
     {
-        "message": '10000'
-        "status": "success"
+        "population": '10000'
+        "age": "25"
     }
+    "status":"OK"
 
 ### By Income
 
@@ -44,9 +46,10 @@ Allows users to get the population of Manitobans within a range of income
 ####  Income JSON
 
     {
-        "message": '400000'
-        "status: "success"
+        "population": '400000'
+        "income":"50000"
     }
+    "status":"OK"
 
 # Sample Requests and Responses
 
@@ -55,7 +58,7 @@ Allows users to get the population of Manitobans within a range of income
 ```
 {
     "results": {
-        "population": 1,000,000,
+        "population": 750,000,
         "city": "winnipeg"
     }
     "status": "OK"
@@ -67,7 +70,7 @@ Allows users to get the population of Manitobans within a range of income
 ```
 {
     "results": {
-        "population": 1,000,000,
+        "population": 10,000,
         "age": 6
     }
     "status": "OK"
