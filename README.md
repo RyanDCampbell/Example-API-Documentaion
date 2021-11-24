@@ -19,7 +19,7 @@ Allows users to get the population of a specific city
 #### City JSON
 
     {
-        "population": "49000"
+        "population": 49000
         "city": "Brandon"
     }
     "status":"OK"
@@ -35,7 +35,7 @@ Allows users to get the population of Manitobans within a specific age range
 #### Age JSON
 
     {
-        "population": '10000'
+        "population": 10000
         "age": "25"
     }
     "status":"OK"
@@ -51,8 +51,8 @@ Allows users to get the population of Manitobans within a range of income
 #### Income JSON
 
     {
-        "population": '400000'
-        "income":"50000"
+        "population": 400000
+        "income": 50000
     }
     "status":"OK"
 
